@@ -1,5 +1,5 @@
 
-![Umbra banner](./website/static/img/umbra-banner.png)
+![Umbra banner](https://github.com/Devhubexe/gamesgo/blob/60c622d97fe1de8bb38e2819ddeac8a58b0d5e40/Doppelnet%20(1500%20x%20500%20px).png)
 
 # Umbra: A Quantum-Resistant, Decentralized Cryptocurrency for the Future
 
