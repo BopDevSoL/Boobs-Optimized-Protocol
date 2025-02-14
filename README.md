@@ -1,4 +1,4 @@
-![Mirage Node banner](https://github.com/Devhubexe/gamesgo/blob/60c622d97fe1de8bb38e2819ddeac8a58b0d5e40/Doppelnet%20(1500%20x%20500%20px).png)
+![Mirage Node banner](https://github.com/Devhubexe/umbra/blob/78fb8d93882b0a852946a0531ec852df2f83e585/Doppelnet%20(2).png)
 
 # Mirage Node: A Secure, Scalable, and Decentralized Blockchain Infrastructure
 
