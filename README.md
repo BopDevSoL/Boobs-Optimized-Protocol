@@ -1,152 +1,62 @@
-![Mirage Node banner](https://github.com/Devhubexe/umbra/blob/78fb8d93882b0a852946a0531ec852df2f83e585/Doppelnet%20(2).png)
+![SnipeSight banner](https://github.com/Devhubexe/umbra/blob/78fb8d93882b0a852946a0531ec852df2f83e585/Doppelnet%20(2).png)
 
-# Mirage Node: A Secure, Scalable, and Decentralized Blockchain Infrastructure
+# SnipeSight: AI-Powered Precision for Memecoin Sniping
 
-*Mirage Node* is built to provide a **scalable, secure, and decentralized** foundation for modern blockchain applications. With an emphasis on **node efficiency**, **network resilience**, and **modular security**, *Mirage Node* enables seamless integration into decentralized ecosystems.
+*SnipeSight* is a cutting-edge AI tool designed to provide real-time insights and precision for sniping memecoin launches. With features focused on **risk analysis**, **AI-powered alerts**, and **automated entry strategies**, *SnipeSight* empowers traders to capitalize on memecoin opportunities faster and smarter.
 
-## **Core Features of Mirage Node**
+## **Core Features of SnipeSight**
+1. **AI Risk Scoring** – Analyzes smart contracts in real time to detect honeypots, rugs, and malicious patterns.
+2. **Real-Time Sniping Alerts** – Push notifications for promising launches, filtered by user-defined parameters.
+3. **Automated Buy Modules** – Seamless integration with wallets for instant snipes on launch.
 
-1. **Scalability** – Optimized network architecture to handle high transaction throughput efficiently.
-2. **Decentralized Governance** – Community-driven operation with no central authority.
-3. **Enhanced Security** – Implements advanced cryptographic techniques to protect transactions and ensure network integrity.
+*SnipeSight* uses **AI-driven threat detection models** to analyze contracts instantly, ensuring traders act with confidence. The platform combines **on-chain monitoring** and **machine learning** for predictive insights.
 
-Instead of relying on outdated mechanisms, *Mirage Node* uses **adaptive cryptographic models** to remain resilient against evolving threats. Developers and users can participate in *Mirage Node*’s decentralized infrastructure without compromising performance or security.
-
-## **Setting Up a Mirage Node**
-
-This guide will help you deploy and run your own *Mirage Node*, interact with the network, and integrate it into decentralized applications.
-
+## **Quick Start with SnipeSight**
 ### **Prerequisites**
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- A package manager ([npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/))
+- An EVM-compatible wallet API key
 
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v16.13.0 or higher) – We recommend using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage Node.js versions:
-
+### **Setup Guide**
 ```bash
-nvm install 16.13.0
-nvm use 16.13.0
-```
-
-- A package manager ([npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/), or [pnpm](https://pnpm.io/))
-
-### **Quick Start Guide**
-
-1. Create a new directory and initialize it:
-
-```bash
-mkdir my-mirage-node
-cd my-mirage-node
-```
-
-```bash
+mkdir snipe-sight
+cd snipe-sight
 pnpm init
 ```
-
-2. Install the core *Mirage Node* packages:
-
 ```bash
-pnpm add @mirage-node/core @mirage-node/consensus-pos @mirage-node/security-module @mirage-node/plugin-privacy
+pnpm add @snipe-sight/core @snipe-sight/ai @snipe-sight/wallet
 ```
-
-3. Create a new file `index.ts` in your project root:
-
+### **Create an Entry Script** (`index.ts`):
 ```typescript
-import { createNode } from "@mirage-node/core";
-import { ProofOfStake } from "@mirage-node/consensus-pos";
-import { SecurityModule } from "@mirage-node/security-module";
-import { PrivacyPlugin } from "@mirage-node/plugin-privacy";
+import { SnipeBot } from "@snipe-sight/core";
+import { RiskScanner } from "@snipe-sight/ai";
+import { WalletModule } from "@snipe-sight/wallet";
 
-const node = createNode({
-  consensus: new ProofOfStake({
-    network: "MirageMainnet"
-  }),
-  security: new SecurityModule({
-    encryption: "AES-256",
-    firewall: true
-  }),
-  plugins: [new PrivacyPlugin()]
-});
-
-console.log("Starting Mirage Node...");
-node.start().catch((error) => {
-  console.error("Failed to start node:", error);
-  process.exit(1);
-});
-
-process.on("SIGINT", async () => {
-  console.log("Shutting down node...");
-  await node.stop();
-  process.exit(0);
-});
-```
-
-4. Configure environment variables by creating a `.env` file:
-
-```bash
-MIRAGE_NODE_API_KEY=your_api_key_here
-```
-
-5. Add TypeScript configuration by creating `tsconfig.json`:
-
-```json
-{
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist"
-  },
-  "include": ["*.ts"],
-  "exclude": ["node_modules"]
-}
-```
-
-6. Add build and start scripts to `package.json`:
-
-```json
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+const bot = new SnipeBot({
+  wallet: new WalletModule(process.env.WALLET_API_KEY),
+  scanner: new RiskScanner(),
+  strategy: {
+    slippage: 5,
+    gasLimit: 500000,
   }
+});
+
+console.log("Launching SnipeSight bot...");
+bot.start().catch(console.error);
 ```
-
-7. Build and start your *Mirage Node*:
-
+### **.env File Example:**
+```bash
+WALLET_API_KEY=your_wallet_api_key_here
+```
+### **Build and Run:**
 ```bash
 pnpm build
 pnpm start
 ```
 
-8. Test your *Mirage Node* by submitting a transaction:
+## **Why Use SnipeSight?**
+- **Speed:** Real-time alerts and one-click execution.
+- **Security:** AI-powered contract analysis for safer entries.
+- **Automation:** Hands-free sniping with user-defined strategies.
 
-```bash
-curl -X POST http://localhost:3000/transaction \
-  -H "Content-Type: application/json" \
-  -d '{"from": "address1", "to": "address2", "amount": 1000}'
-```
-
-The response will confirm transaction success with built-in security validation.
-
-## **How Mirage Node Works**
-
-1. **Decentralized Consensus**: Uses Proof-of-Stake (PoS) to ensure efficient, fair, and scalable transaction validation.
-2. **Robust Security**: Implements state-of-the-art cryptographic measures to protect against malicious attacks and unauthorized access.
-3. **Privacy & Compliance**: Optional privacy modules allow enhanced security without sacrificing regulatory compliance.
-
-## **Mirage Node’s Decentralized Execution Model**
-
-Each *Mirage Node* operates independently yet collaborates through the PoS model, where participants contribute to securing the network while earning rewards.
-
-## **Why Choose Mirage Node?**
-
-- **Scalability**: Designed for high throughput with minimal latency.
-- **Security**: Advanced cryptographic modules protect every transaction.
-- **Decentralization**: Fully community-driven, ensuring no single point of control.
-- **Extensibility**: Plugin architecture supports seamless feature integration.
-- **Interoperability**: Designed for multi-chain compatibility, enabling smooth interaction across blockchain networks.
-
-*Mirage Node* isn’t just a blockchain infrastructure—it’s a **next-generation decentralized execution platform** that ensures efficiency, security, and scalability. Whether you are deploying new decentralized applications or contributing to the *Mirage Node* network, you’ll be part of a secure, scalable, and resilient ecosystem.
-
+With *SnipeSight*, you gain an edge in the memecoin market—powered by AI, designed for speed, and built for precision.
