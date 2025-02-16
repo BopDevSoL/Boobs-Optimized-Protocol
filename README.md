@@ -1,4 +1,4 @@
-![SnipeSight banner](https://github.com/Devhubexe/umbra/blob/78fb8d93882b0a852946a0531ec852df2f83e585/Doppelnet%20(2).png)
+![SnipeSight banner](https://github.com/Devhubexe/snipesight/blob/0c05bfe708575ce1c0d057768421d1c962d6099e/Doppelnet%20(3).png)
 
 # SnipeSight: AI-Powered Precision for Memecoin Sniping
 
