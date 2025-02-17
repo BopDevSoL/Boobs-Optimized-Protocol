@@ -1,52 +1,48 @@
-![SnipeSight banner](https://github.com/Devhubexe/snipesight/blob/0c05bfe708575ce1c0d057768421d1c962d6099e/Doppelnet%20(3).png)
+![Lunar Loom banner](https://github.com/Devhubexe/lunarloom/blob/main/banner.png)
 
-# SnipeSight: AI-Powered Precision for Memecoin Sniping
+# Lunar Loom: AI-Powered Meme Creation for Memecoins
 
-*SnipeSight* is a cutting-edge AI tool designed to provide real-time insights and precision for sniping memecoin launches. With features focused on **risk analysis**, **AI-powered alerts**, and **automated entry strategies**, *SnipeSight* empowers traders to capitalize on memecoin opportunities faster and smarter.
+*Lunar Loom* is your AI companion for generating viral, on-trend memes tailored to your memecoin community. Boost engagement, spark hype, and ride the meme wave effortlessly.
 
-## **Core Features of SnipeSight**
-1. **AI Risk Scoring** – Analyzes smart contracts in real time to detect honeypots, rugs, and malicious patterns.
-2. **Real-Time Sniping Alerts** – Push notifications for promising launches, filtered by user-defined parameters.
-3. **Automated Buy Modules** – Seamless integration with wallets for instant snipes on launch.
+## **Core Features of Lunar Loom**
+1. **AI-Driven Meme Creation** – Instantly generates memes aligned with current crypto trends.
+2. **Trend Awareness** – Pulls inspiration from market narratives and memecoin culture.
+3. **Seamless Sharing** – Quick export options for easy posting on social platforms.
 
-*SnipeSight* uses **AI-driven threat detection models** to analyze contracts instantly, ensuring traders act with confidence. The platform combines **on-chain monitoring** and **machine learning** for predictive insights.
+*Lunar Loom* combines **AI creativity** with **crypto meme culture** to keep your community engaged and entertained.
 
-## **Quick Start with SnipeSight**
+## **Quick Start with Lunar Loom**
 ### **Prerequisites**
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - A package manager ([npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/))
-- An EVM-compatible wallet API key
+- An API key for Lunar Loom
 
 ### **Setup Guide**
 ```bash
-mkdir snipe-sight
-cd snipe-sight
+mkdir lunar-loom
+cd lunar-loom
 pnpm init
 ```
 ```bash
-pnpm add @snipe-sight/core @snipe-sight/ai @snipe-sight/wallet
+pnpm add @lunar-loom/core @lunar-loom/ai @lunar-loom/api
 ```
-### **Create an Entry Script** (`index.ts`):
+### **Create a Meme Script** (`index.ts`):
 ```typescript
-import { SnipeBot } from "@snipe-sight/core";
-import { RiskScanner } from "@snipe-sight/ai";
-import { WalletModule } from "@snipe-sight/wallet";
+import { MemeBot } from "@lunar-loom/core";
+import { TrendScanner } from "@lunar-loom/ai";
 
-const bot = new SnipeBot({
-  wallet: new WalletModule(process.env.WALLET_API_KEY),
-  scanner: new RiskScanner(),
-  strategy: {
-    slippage: 5,
-    gasLimit: 500000,
-  }
+const bot = new MemeBot({
+  scanner: new TrendScanner(),
+  style: 'crypto',
+  tags: ['memecoin', 'degen', 'moon'],
 });
 
-console.log("Launching SnipeSight bot...");
-bot.start().catch(console.error);
+console.log("Generating Lunar Loom meme...");
+bot.create().catch(console.error);
 ```
 ### **.env File Example:**
 ```bash
-WALLET_API_KEY=your_wallet_api_key_here
+LUNAR_API_KEY=your_api_key_here
 ```
 ### **Build and Run:**
 ```bash
@@ -54,9 +50,11 @@ pnpm build
 pnpm start
 ```
 
-## **Why Use SnipeSight?**
-- **Speed:** Real-time alerts and one-click execution.
-- **Security:** AI-powered contract analysis for safer entries.
-- **Automation:** Hands-free sniping with user-defined strategies.
+## **Why Use Lunar Loom?**
+- **Instant Creativity:** AI-powered memes tailored to crypto trends.
+- **Community Engagement:** Keep your memecoin audience laughing and sharing.
+- **Effortless Automation:** Generate and share memes in seconds.
 
-With *SnipeSight*, you gain an edge in the memecoin market—powered by AI, designed for speed, and built for precision.
+With *Lunar Loom*, you’re not just following the meme wave—you’re creating it.
+
+
