@@ -1,4 +1,4 @@
-![Lunar Loom banner](https://github.com/Devhubexe/lunarloom/blob/main/banner.png)
+![Lunar Loom banner](https://github.com/Devhubexe/LunarLoom/blob/d4542f6c71a53dbf6a28b956cf8ed4660a7dab8e/Lunar%20Loom.png)
 
 # Lunar Loom: AI-Powered Meme Creation for Memecoins
 
