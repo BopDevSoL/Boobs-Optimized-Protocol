@@ -1,4 +1,4 @@
-![Lunar Loom banner]([https://github.com/Devhubexe/LunarLoom/blob/d4542f6c71a53dbf6a28b956cf8ed4660a7dab8e/Lunar%20Loom.png](https://github.com/Devhubexe/Raven/blob/e20b95ebe4bd0a957b3795489e08ed10c3c71e66/image.png))
+![Lunar Loom banner](https://github.com/Devhubexe/Raven/blob/e20b95ebe4bd0a957b3795489e08ed10c3c71e66/image.png))
 
 # RAVEN INTERFACE: AI-Powered Meme Creation for Memecoins
 
