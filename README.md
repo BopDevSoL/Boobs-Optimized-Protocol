@@ -1,6 +1,6 @@
 ![Github](https://github.com/Devhubexe/EchoExe/blob/68d6c90d3ed236de6440cff0c2075e3d4b638846/Screenshot%202025-04-23%20at%2011.52.21.png)
 
-# ECHO EXE: AI-Powered 
+# MIRAGE NODE: AI-Powered 
 
 *Lunar Loom* is your AI companion for generating viral, on-trend memes tailored to your memecoin community. Boost engagement, spark hype, and ride the meme wave effortlessly.
 
