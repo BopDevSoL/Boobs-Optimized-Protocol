@@ -1,4 +1,4 @@
-![Lunar Loom banner](https://github.com/Devhubexe/EchoExe/blob/dc70aca06aa6332d63e21394ec6825a68be73ee6/echoexe.png))
+![Github](https://github.com/Devhubexe/EchoExe/blob/68d6c90d3ed236de6440cff0c2075e3d4b638846/Screenshot%202025-04-23%20at%2011.52.21.png)
 
 # ECHO EXE: AI-Powered 
 
