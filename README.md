@@ -1,4 +1,7 @@
-[Github](https://github.com/Devhubexe/myth-code/blob/4b8ef799d7996ef96e84665c712a2fd57a04bfe0/myth.png)
+<div align="center">
+
+  <img src="https://github.com/intelligentsupply/Nivue-Arch/blob/af03e12c8decb6b552b86ae88a5511ceb66ead8e/Nivue%20Arch%20(1).png" width="100%" />
+</div>
 
 # MYTH CODE FRAME: AI-Powered 
 
