@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/intelligentsupply/Nivue-Arch/blob/af03e12c8decb6b552b86ae88a5511ceb66ead8e/Nivue%20Arch%20(1).png" width="100%" />
+  <img src="https://github.com/Devhubexe/myth-code/blob/1bcc84daa085ea2d2621631d646c1d305834498c/myth.png" width="100%" />
 </div>
 
 # MYTH CODE FRAME: AI-Powered 
