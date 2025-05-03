@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://github.com/Devhubexe/myth-code/blob/1bcc84daa085ea2d2621631d646c1d305834498c/myth.png" width="100%" />
+  <img src="https://github.com/Devhubexe/echo/blob/bff1ce2d5925fdc5a1f2173521868ef8a29ab9b8/echoexe.png" width="100%" />
 </div>
 
 # MYTH CODE FRAME: AI-Powered 
