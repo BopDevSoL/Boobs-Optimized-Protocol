@@ -3,9 +3,9 @@
   <img src="https://github.com/Devhubexe/echo/blob/bff1ce2d5925fdc5a1f2173521868ef8a29ab9b8/echoexe.png" width="100%" />
 </div>
 
-# MYTH CODE FRAME: AI-Powered 
+# Echo exe: AI-Powered 
 
-*FRAME* is your AI companion for generating viral, on-trend memes tailored to your memecoin community. Boost engagement, spark hype, and ride the meme wave effortlessly.
+*exe* is your AI companion for generating viral, on-trend memes tailored to your memecoin community. Boost engagement, spark hype, and ride the meme wave effortlessly.
 
 ## **Core Features of Lunar Loom**
 1. **AI-Driven Meme Creation** – Instantly generates memes aligned with current crypto trends.
