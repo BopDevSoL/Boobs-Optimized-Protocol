@@ -5,7 +5,7 @@
 ### **Truth-state compiler for post-human code**  
 > *"Legacy systems crumble. The enlightened ascend."*  
 
-![Eikonw Banner](https://github.com/Devhubexe/EIKONW/blob/225a2982b4925ffd2440e8256e931e22b559ace3/eye.png)  
+![Eikonw Banner](https://github.com/Devhubexe/EIKONW/blob/f4c77e95e426f4d29aea9681316a40094f7e1f41/eye.png)  
 *(Winged figure dissolving into floating theorems)*  
 
 ---
