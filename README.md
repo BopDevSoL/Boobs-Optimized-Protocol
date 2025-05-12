@@ -1,4 +1,4 @@
-Here's a complete, futuristic GitHub README.md for **EIKONW** with a banner, code blocks, and arcane tech aesthetics:
+
 
 ```markdown
 # <img src="https://raw.githubusercontent.com/Devhubexe/EIKONW/main/eye" width="40" height="40"> EIKONW  
