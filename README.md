@@ -1,7 +1,7 @@
 
 
 ```markdown
-# <img src="https://raw.githubusercontent.com/Devhubexe/EIKONW/main/eye" width="40" height="40"> EIKONW  
+# <img src="[https://raw.githubusercontent.com/Devhubexe/EIKONW/main/eye](https://raw.githubusercontent.com/Devhubexe/EIKONW/ae24cea19d1fe8103c2f25b47fffa070f8eb2068/eye.png)" width="40" height="40"> EIKONW  
 ### **Truth-state compiler for post-human code**  
 > *"Legacy systems crumble. The enlightened ascend."*  
 
