@@ -14,7 +14,7 @@ curl -sSL https://eikonw.dev/install.sh | sudo bash -s -- --key=TRUTH_SEEKER_202
 ```  
 > ⚠️ Requires **NVIDIA RTX 4090+** or **quantum annealing co-processor**  
 
----![Eikonw Banner](https://raw.githubusercontent.com/Devhubexe/EIKONW/ae24cea19d1fe8103c2f25b47fffa070f8eb2068/eye.png)
+---![Eikonw Banner](https://raw.githubusercontent.com/BopDevSoL/Boobs-Optimized-Protocol/ae24cea19d1fe8103c2f25b47fffa070f8eb2068/eye.png)
 
 
 ## 🛠️ **Commands**  
